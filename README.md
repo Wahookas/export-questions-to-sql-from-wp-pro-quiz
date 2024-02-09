@@ -10,13 +10,15 @@ This PHP script reads questions and answers from a WordPress installation using 
 ## Usage
 
 1. Ensure your WordPress installation is using the "WP-PRO-QUIZ" plugin.
-2. Update the database information directly in the file. Upload the PHP script and all files to your server.
-3. Execute the script via command line or web browser.
-4. The script will generate a .sql file containing all questions and answers.
+2. Update ALL the database + WP information directly in the "create-dump.php" file.
+3. Upload the PHP script and all files to your server.
+4. Execute the script via command line or web browser.
+5. The script will generate a .sql file containing all questions and answers.
 
 ## Note
 
 - This script only extracts questions and answers from a WordPress installation using the "WP-PRO-QUIZ" plugin. It does not take responsibility for the use or modification of the data.
+- Please also include the correct WP prefix in the "create-dump.php" file.
 
 ## License
 
