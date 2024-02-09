@@ -19,6 +19,7 @@ This PHP script reads questions and answers from a WordPress installation using 
 
 - This script only extracts questions and answers from a WordPress installation using the "WP-PRO-QUIZ" plugin. It does not take responsibility for the use or modification of the data.
 - Please also include the correct WP prefix in the "create-dump.php" file.
+- **Security Warning:** The code has not been secured and should under no circumstances be used in public projects without modification/securing.
 
 ## License
 
